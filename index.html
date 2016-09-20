@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title>Responsive Google</title>
+			<meta http-equiv="refresh" content="100">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="icon" type="image/png" href="http://codifyacademy.com/google-responsive/favicon.ico">
+			<script src="https://use.fontawesome.com/4a70fc6be2.js"></script>
+			
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+			<link rel="stylesheet" type="text/css" href="main.css">
+			<link rel="stylesheet" type="text/css" href="animate.css">
+
+		</head>
+
+		<body>
+		 <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+              <li><a href="#">+Chris</a></li>
+              <li><a href="#">Mail</a></li>
+              <li><a href="#">Images</a></li>
+              <li><a href="#"><i class="fa fa-th" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+              <li><a href="#" class="btn btn-default">Share</a></li>
+              <li><img class="img-responsive img-circle" src="https://s-media-cache-ak0.pinimg.com/236x/e1/26/15/e12615cb231c9ab8e41dd726649f999a.jpg"></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <br>
+
+    <section id="content1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <img class="img-responsive" src="http://codifyacademy.com/google-responsive/img/google.png">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search Google or type a URL">
+                </div>
+                <div class="col-md-12">
+                  <div class="search">
+                    <button class="btn btn-default">Google Search</button>
+                    <button class="btn btn-default">I'm Feeling Lucky</button>
+                  </div>
+                </div>
+          </div>
+        </div>
+       </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <ul class="left">
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-sm-6">
+          <ul class="right">
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+   
+		
+
+
+
+    		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 			<script>function animationHover(element, animation){
+    element = $(element);
+    element.hover(
+        function() {
+            element.addClass('animated ' + animation);        
+        },
+        function(){
+            //wait for animation to finish before removing classes
+            window.setTimeout( function(){
+                element.removeClass('animated ' + animation);
+            }, 2000);         
+        });
+}</script>
+     <script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+		</body>
+	</html>
